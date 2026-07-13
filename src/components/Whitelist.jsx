@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { SOCIALS, COLLECTION, QUESTS } from '../data/collection'
+import { SOCIALS, COLLECTION, QUESTS, WHITELIST_OPEN } from '../data/collection'
 import { supabase } from '../lib/supabase'
 
 gsap.registerPlugin(ScrollTrigger)
@@ -118,6 +118,7 @@ export default function Whitelist() {
         )}
       </p>
 
+      {WHITELIST_OPEN ? (
       <div className="wl-grid">
         <div className="wl-panel">
           <div className="wl-panel-head mono">
@@ -233,6 +234,42 @@ export default function Whitelist() {
           )}
         </form>
       </div>
+      ) : (
+        <div className="wl-soon terminal">
+          <div className="terminal-bar">
+            <span>WHITELIST PROTOCOL</span>
+            <span className="dots">
+              <span />
+              <span />
+              <span />
+            </span>
+          </div>
+          <div className="terminal-body wl-soon-body">
+            <div>
+              <span className="prompt">&gt;</span> whitelist --status
+            </div>
+            <div className="dim">PROTOCOL OFFLINE — GATE SEALED</div>
+            <div>
+              <span className="prompt">&gt;</span> eta
+            </div>
+            <div className="wl-soon-title glitch" data-text="COMING SOON">
+              COMING SOON
+            </div>
+            <div className="dim">
+              THE GATE OPENS WITHOUT WARNING. FOLLOW THE SIGNAL.
+            </div>
+            <a
+              className="wl-soon-cta mono glitch-hover"
+              data-text="[ FOLLOW @KRYPTROZ ]"
+              href="https://x.com/KRYPTROZ"
+              target="_blank"
+              rel="noreferrer"
+            >
+              [ FOLLOW @KRYPTROZ ]
+            </a>
+          </div>
+        </div>
+      )}
 
       <footer className="footer">
         <div className="footer-top">

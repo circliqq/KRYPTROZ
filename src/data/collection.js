@@ -120,6 +120,9 @@ export const FAQ = [
 ]
 
 // Whitelist quests — set real links in href
+// Flip to true when the whitelist opens — form + quests appear again
+export const WHITELIST_OPEN = false
+
 export const QUESTS = [
   { id: 'follow', label: 'Follow @KRYPTROZ on X', href: 'https://x.com/KRYPTROZ' },
   { id: 'like', label: 'Like the pinned @KRYPTROZ post', href: 'https://x.com/KRYPTROZ' },

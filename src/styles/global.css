@@ -1726,3 +1726,33 @@ html { scrollbar-width: thin; scrollbar-color: rgba(217, 79, 255, 0.55) #0c0613;
   border-style: dashed;
   animation: blink 2.2s steps(1) infinite;
 }
+
+/* ---------- whitelist coming soon ---------- */
+
+.wl-soon { max-width: 720px; margin: 0 auto; }
+
+.wl-soon-body { text-align: left; }
+
+.wl-soon-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.2rem, 7vw, 4.5rem);
+  line-height: 1.1;
+  margin: 1rem 0;
+  color: var(--ink);
+  text-transform: uppercase;
+}
+
+.wl-soon-cta {
+  display: inline-block;
+  margin-top: 1.6rem;
+  background: var(--phosphor);
+  color: var(--bg);
+  padding: 0.9rem 1.6rem;
+  font-size: 0.95rem;
+  letter-spacing: 0.16em;
+  text-decoration: none;
+  box-shadow: 0 0 24px rgba(217, 79, 255, 0.35);
+  transition: background 0.2s;
+}
+
+.wl-soon-cta:hover { background: var(--cyan); }
