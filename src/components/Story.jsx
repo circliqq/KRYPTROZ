@@ -81,7 +81,7 @@ export default function Story() {
           <div>
             <span className="prompt">&gt;</span> count --alive
           </div>
-          <div className="dim">666 CORRUPTED IDENTITIES REMAIN</div>
+          <div className="dim">CORRUPTED IDENTITY SUPPLY: TBA</div>
           <div>
             <span className="prompt">&gt;</span> containment --status
           </div>

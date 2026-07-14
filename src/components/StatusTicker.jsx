@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 const MSGS = [
   'UPLINK: STABLE',
   'SIGNAL: 87.3% — DRIFTING',
-  'CORRUPTED IDENTITIES: 666',
+  'CORRUPTED IDENTITIES: TBA',
   'NETWORK: CH-666 BROADCASTING',
   'TRACKING: AUTO',
   'DO NOT ADJUST YOUR SET',

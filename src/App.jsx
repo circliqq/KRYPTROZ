@@ -12,6 +12,7 @@ import Decrypt from './components/Decrypt'
 import StatusTicker from './components/StatusTicker'
 import TrackBar from './components/TrackBar'
 import SoundToggle from './components/SoundToggle'
+import InterfaceSound from './components/InterfaceSound'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Marquee from './components/Marquee'
@@ -54,6 +55,7 @@ export default function App() {
       <StatusTicker />
       <TrackBar />
       <SoundToggle />
+      <InterfaceSound />
       <Nav booted={booted} />
       <main>
         <Hero booted={booted} />

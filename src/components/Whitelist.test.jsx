@@ -49,7 +49,7 @@ describe('Whitelist', () => {
   it('submits a normalized row and increments the live count', async () => {
     const user = userEvent.setup()
     render(<Whitelist />)
-    expect(await screen.findByText(/4 \/ 666 LOGGED/)).toBeInTheDocument()
+    expect(await screen.findByText(/4 SIGNALS LOGGED — SUPPLY TBA/)).toBeInTheDocument()
     await completeQuests(user)
     await user.type(screen.getByLabelText(/X \/ TWITTER HANDLE/), '  @Alice  ')
     await user.type(screen.getByLabelText(/WALLET \*/), `0x${'A'.repeat(40)}`)
@@ -63,7 +63,7 @@ describe('Whitelist', () => {
       quests: 'follow, like, rt, comment, post, discord',
     }))
     expect(await screen.findByText(/APPLICATION RECEIVED/)).toBeInTheDocument()
-    expect(screen.getByText(/5 \/ 666 LOGGED/)).toBeInTheDocument()
+    expect(screen.getByText(/5 SIGNALS LOGGED — SUPPLY TBA/)).toBeInTheDocument()
   })
 
   it('shows a specific duplicate-wallet error', async () => {

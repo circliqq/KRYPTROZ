@@ -109,6 +109,10 @@ const createSignal = () => {
   }
 }
 
+const broadcastSoundState = (enabled) => {
+  window.dispatchEvent(new CustomEvent('ctz:audio-state', { detail: { enabled } }))
+}
+
 export default function SoundToggle() {
   const signal = useRef(null)
   const wantsSound = useRef(true)
@@ -168,6 +172,7 @@ export default function SoundToggle() {
   const toggle = async () => {
     if (enabled) {
       wantsSound.current = false
+      broadcastSoundState(false)
       signal.current?.stop()
       signal.current = null
       setEnabled(false)
@@ -176,6 +181,7 @@ export default function SoundToggle() {
     }
 
     wantsSound.current = true
+    broadcastSoundState(true)
     const nextSignal = signal.current || createSignal()
     if (!nextSignal) {
       setAvailable(false)

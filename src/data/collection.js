@@ -6,7 +6,7 @@ export const COLLECTION = {
   name: 'KRYPTROZ',
   tagline: 'REALITY NOT FOUND',
   chain: 'Ethereum',
-  supply: 666,
+  supply: 'TBA',
   mintPrice: 'TBA',
   wlPrice: 'TBA',
   currency: 'ETH',
@@ -15,7 +15,7 @@ export const COLLECTION = {
 }
 
 export const STATS = [
-  { label: 'Corrupted Identities', value: '666', count: 666 },
+  { label: 'Corrupted Identities', value: 'TBA' },
   { label: 'Corruption Price', value: 'TBA' },
   { label: 'Corruption Event', value: 'TBA' },
   { label: 'Chain', value: 'ETH' },
@@ -26,7 +26,7 @@ export const STORY = [
   {
     tag: 'UNKNOWN_ORIGIN',
     title: 'Nobody knows where KRYPTROZ came from.',
-    body: 'Nobody knows who created them. Nobody knows why reality started breaking. All we know is this: 666 corrupted identities remain.',
+    body: 'Nobody knows who created them. Nobody knows why reality started breaking. The number of corrupted identities remains classified: TBA.',
   },
   {
     tag: 'THE_UNIVERSE',
@@ -79,7 +79,7 @@ export const ROADMAP = [
     phase: 'PHASE 03',
     title: 'MANIFESTATION',
     status: 'next',
-    items: ['The Genesis Corruption begins. 666 identities manifest.'],
+    items: ['The Genesis Corruption begins. The final identity supply is TBA.'],
   },
   {
     phase: 'PHASE 04',
@@ -98,7 +98,7 @@ export const ROADMAP = [
 export const FAQ = [
   {
     q: 'What is KRYPTROZ?',
-    a: 'A recognizable digital universe built around 666 corrupted identities trapped between reality and the digital world.',
+    a: 'A recognizable digital universe built around corrupted identities trapped between reality and the digital world. Final supply: TBA.',
   },
   {
     q: 'How do I get Priority Access?',
@@ -110,7 +110,7 @@ export const FAQ = [
   },
   {
     q: 'How many identities remain?',
-    a: '666 corrupted identities remain. The Corruption Event is limited to one identity per eligible wallet.',
+    a: 'The final supply of corrupted identities is TBA. The Corruption Event is limited to one identity per eligible wallet.',
   },
 ]
 
@@ -123,7 +123,7 @@ export const QUESTS = [
   { id: 'like', label: 'Like the pinned @KRYPTROZ post', href: 'https://x.com/KRYPTROZ' },
   { id: 'rt', label: 'Retweet the pinned @KRYPTROZ post', href: 'https://x.com/KRYPTROZ' },
   { id: 'comment', label: 'Comment under the pinned post', href: 'https://x.com/KRYPTROZ' },
-  { id: 'post', label: 'Transmit the KRYPTROZ signal (tag us)', href: 'https://x.com/intent/post?text=Reality%20is%20breaking.%20666%20corrupted%20identities%20remain.%20%40KRYPTROZ%20%23KRYPTROZ' },
+  { id: 'post', label: 'Transmit the KRYPTROZ signal (tag us)', href: 'https://x.com/intent/post?text=Reality%20is%20breaking.%20Corrupted%20identity%20supply%3A%20TBA.%20%40KRYPTROZ%20%23KRYPTROZ' },
   { id: 'discord', label: 'Join the Network (Discord)', href: 'https://discord.gg/' },
 ]
 

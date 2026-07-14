@@ -114,7 +114,7 @@ export default function Whitelist() {
         CORRUPTION PRICE {COLLECTION.mintPrice} — GENESIS CORRUPTION {COLLECTION.mintDate} — MAX{' '}
         {COLLECTION.maxPerWallet} / WALLET
         {typeof count === 'number' && (
-          <span className="wl-count"> — {count} / {COLLECTION.supply} LOGGED</span>
+          <span className="wl-count"> — {count} SIGNALS LOGGED — SUPPLY {COLLECTION.supply}</span>
         )}
       </p>
 
@@ -278,7 +278,7 @@ export default function Whitelist() {
               KRYPTROZ
             </span>
             <p className="footer-tag mono">
-              666 corrupted identities remain.
+              Corrupted identity supply: TBA.
               <br />
               Reality is corrupting. Genesis Corruption TBA.
             </p>
