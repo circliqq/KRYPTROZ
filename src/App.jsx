@@ -11,6 +11,7 @@ import ChannelFlash from './components/ChannelFlash'
 import Decrypt from './components/Decrypt'
 import StatusTicker from './components/StatusTicker'
 import TrackBar from './components/TrackBar'
+import SoundToggle from './components/SoundToggle'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Marquee from './components/Marquee'
@@ -52,6 +53,7 @@ export default function App() {
       <Decrypt />
       <StatusTicker />
       <TrackBar />
+      <SoundToggle />
       <Nav booted={booted} />
       <main>
         <Hero booted={booted} />
