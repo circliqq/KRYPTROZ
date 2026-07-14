@@ -43,8 +43,8 @@ export default function Rarity() {
     <section className="section" id="rarity" ref={root}>
       <div className="section-head">
         <span className="section-index mono">[03]</span>
-        <h2 className="section-title glitch" data-text="RARITY">
-          RARITY
+        <h2 className="section-title glitch" data-text="CORRUPTION LEVELS">
+          CORRUPTION LEVELS
         </h2>
       </div>
 

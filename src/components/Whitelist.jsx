@@ -105,13 +105,13 @@ export default function Whitelist() {
     <section className="section whitelist" id="whitelist" ref={root}>
       <div className="section-head">
         <span className="section-index mono">[06]</span>
-        <h2 className="section-title glitch" data-text="JOIN THE LIST">
-          JOIN THE LIST
+        <h2 className="section-title glitch" data-text="PRIORITY ACCESS">
+          PRIORITY ACCESS
         </h2>
       </div>
 
       <p className="wl-sub mono">
-        PRICE {COLLECTION.mintPrice} — MINT DATE {COLLECTION.mintDate} — MAX{' '}
+        CORRUPTION PRICE {COLLECTION.mintPrice} — GENESIS CORRUPTION {COLLECTION.mintDate} — MAX{' '}
         {COLLECTION.maxPerWallet} / WALLET
         {typeof count === 'number' && (
           <span className="wl-count"> — {count} / {COLLECTION.supply} LOGGED</span>
@@ -122,7 +122,7 @@ export default function Whitelist() {
       <div className="wl-grid">
         <div className="wl-panel">
           <div className="wl-panel-head mono">
-            <span>QUESTS · {QUESTS.length}</span>
+            <span>ACCESS PROTOCOL · {QUESTS.length}</span>
             <span className="wl-pct">{pct}% READY</span>
           </div>
           <div className="wl-progress">
@@ -167,7 +167,7 @@ export default function Whitelist() {
               &gt; APPLICATION RECEIVED_
               <br />
               <span className="dim">
-                POSITION LOGGED. WATCH THE TERMINAL FOR MINT DATE.
+                PRIORITY ACCESS REQUEST LOGGED. WATCH FOR THE CORRUPTION SIGNAL.
               </span>
             </div>
           ) : (
@@ -206,7 +206,7 @@ export default function Whitelist() {
                 />
               </label>
               <label className="wl-label mono">
-                WALLET * <span className="dim">(the phantom goes here)</span>
+                WALLET * <span className="dim">(identity destination)</span>
                 <input
                   className="wl-field mono"
                   type="text"
@@ -237,7 +237,7 @@ export default function Whitelist() {
       ) : (
         <div className="wl-soon terminal">
           <div className="terminal-bar">
-            <span>WHITELIST PROTOCOL</span>
+            <span>PRIORITY ACCESS PROTOCOL</span>
             <span className="dots">
               <span />
               <span />
@@ -246,9 +246,9 @@ export default function Whitelist() {
           </div>
           <div className="terminal-body wl-soon-body">
             <div>
-              <span className="prompt">&gt;</span> whitelist --status
+              <span className="prompt">&gt;</span> priority-access --status
             </div>
-            <div className="dim">PROTOCOL OFFLINE — GATE SEALED</div>
+            <div className="dim">ACCESS OFFLINE — GATE SEALED</div>
             <div>
               <span className="prompt">&gt;</span> eta
             </div>
@@ -278,9 +278,9 @@ export default function Whitelist() {
               KRYPTROZ
             </span>
             <p className="footer-tag mono">
-              666 phantoms born in a dead server.
+              666 corrupted identities remain.
               <br />
-              Broadcasting on Ethereum. Mint TBA.
+              Reality is corrupting. Genesis Corruption TBA.
             </p>
           </div>
           <div className="footer-col mono">
@@ -294,10 +294,10 @@ export default function Whitelist() {
           <div className="footer-col mono">
             <span className="footer-head">NAVIGATE</span>
             {[
-              ['STORY', '#story'],
-              ['COLLECTION', '#collection'],
-              ['ROADMAP', '#roadmap'],
-              ['WHITELIST', '#whitelist'],
+              ['ORIGIN', '#story'],
+              ['IDENTITIES', '#collection'],
+              ['CORRUPTION TIMELINE', '#roadmap'],
+              ['PRIORITY ACCESS', '#whitelist'],
             ].map(([label, href]) => (
               <a
                 key={label}

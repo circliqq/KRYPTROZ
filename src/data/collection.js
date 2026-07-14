@@ -4,7 +4,7 @@
 
 export const COLLECTION = {
   name: 'KRYPTROZ',
-  tagline: 'BORN IN WEB',
+  tagline: 'REALITY NOT FOUND',
   chain: 'Ethereum',
   supply: 666,
   mintPrice: 'TBA',
@@ -15,28 +15,33 @@ export const COLLECTION = {
 }
 
 export const STATS = [
-  { label: 'Total Supply', value: '666', count: 666 },
-  { label: 'Mint Price', value: 'TBA' },
-  { label: 'Mint Date', value: 'TBA' },
+  { label: 'Corrupted Identities', value: '666', count: 666 },
+  { label: 'Corruption Price', value: 'TBA' },
+  { label: 'Corruption Event', value: 'TBA' },
   { label: 'Chain', value: 'ETH' },
   { label: 'Max / Wallet', value: '1', count: 1 },
 ]
 
 export const STORY = [
   {
-    tag: 'THE_LEAK',
-    title: 'Something crawled out of the Ethernet.',
-    body: 'In a dead server nobody was watching, 666 corrupted files woke up. Half-rendered, half-alive — portraits stitched from broken pixels, halftone dust and violet noise. They call themselves the KRYPTROZ.',
+    tag: 'UNKNOWN_ORIGIN',
+    title: 'Nobody knows where KRYPTROZ came from.',
+    body: 'Nobody knows who created them. Nobody knows why reality started breaking. All we know is this: 666 corrupted identities remain.',
   },
   {
-    tag: 'THE_SIGNAL',
-    title: 'They are not a bug. They are the message.',
-    body: 'Each KRYPTROZ carries a fragment of a signal that predates the chain. Owning one means you can read a piece of it. Collect enough, and the full transmission decrypts.',
+    tag: 'THE_UNIVERSE',
+    title: 'Reality is not ending. Reality is corrupting.',
+    body: 'The glitches are spreading. Every identity is trapped between reality and the digital world. The signal is no longer contained.',
   },
   {
-    tag: 'THE_WARNING',
-    title: 'The green graph can be DECEIVING.',
-    body: 'Ape in with caution. Walk by at your own risk. To die is to DYOR. The phantoms do not care about your floor price — they only want to spread.',
+    tag: 'THE_DIFFERENCE',
+    title: "Reality is breaking. You're becoming part of it.",
+    body: 'Most collections say: buy our NFTs. KRYPTROZ is a recognizable digital universe. Becoming a Carrier means becoming part of the corruption.',
+  },
+  {
+    tag: 'CORE_PROCESS',
+    title: 'Not another PFP collection.',
+    body: 'Every piece of art, every post and every design choice follows the same glitch-driven identity. KRYPTROZ should be recognizable instantly—not because of hype, but because the universe feels different.',
   },
 ]
 
@@ -59,63 +64,53 @@ export const RARITY = [
 
 export const ROADMAP = [
   {
-    phase: 'PHASE 00',
-    title: 'BOOT SEQUENCE',
-    status: 'done',
-    items: [
-      'Art & lore engineered — 666 unique phantoms',
-      'Community terminal opens (Discord + X)',
-      'Whitelist raids & collab drops',
-    ],
-  },
-  {
     phase: 'PHASE 01',
-    title: 'THE MINT',
+    title: 'REALITY BEGINS TO CRACK',
     status: 'active',
-    items: [
-      'Whitelist mint — price TBA',
-      'Public mint — price TBA',
-      'Reveal — phantoms decrypt on-chain',
-    ],
+    items: ['The first fractures appear across the signal.'],
   },
   {
     phase: 'PHASE 02',
-    title: 'SPREAD',
+    title: 'THE CORRUPTION SPREADS',
     status: 'next',
-    items: [
-      'Holder-only glitch generator tool',
-      'Rarity ranks + trait staking',
-      'Secondary royalties fund the treasury',
-    ],
+    items: ['The glitches spread through the Network.'],
   },
   {
     phase: 'PHASE 03',
-    title: 'FULL CORRUPTION',
+    title: 'MANIFESTATION',
     status: 'next',
-    items: [
-      'KRYPTROZ animated PFP pack',
-      'IRL glitch merch drop',
-      'Season 2 — the signal completes',
-    ],
+    items: ['The Genesis Corruption begins. 666 identities manifest.'],
+  },
+  {
+    phase: 'PHASE 04',
+    title: 'NETWORK EXPANSION',
+    status: 'next',
+    items: ['The Network expands beyond the original signal.'],
+  },
+  {
+    phase: 'PHASE 05',
+    title: 'REALITY OVERRIDE',
+    status: 'next',
+    items: ['Reality gives way to the KRYPTROZ universe.'],
   },
 ]
 
 export const FAQ = [
   {
     q: 'What is KRYPTROZ?',
-    a: 'A collection of 666 glitch-born animated phantoms on Ethereum. Y2K webcore art, real lore, holder utility.',
+    a: 'A recognizable digital universe built around 666 corrupted identities trapped between reality and the digital world.',
   },
   {
-    q: 'How do I get whitelisted?',
-    a: 'Be active in the community terminal (Discord), grab a role through raids, collabs and events, then submit your wallet in the whitelist panel below.',
+    q: 'How do I get Priority Access?',
+    a: 'Join the Network, follow official transmissions and complete the access protocol when the gate opens.',
   },
   {
-    q: 'When is mint?',
-    a: 'Mint date is TBA — announced to whitelist and Discord first. Turn on notifications so you do not miss the boot sequence.',
+    q: 'When is the Corruption Event?',
+    a: 'The Genesis Corruption date is TBA. Priority Access carriers will receive the signal first through official KRYPTROZ channels.',
   },
   {
-    q: 'What are the prices?',
-    a: 'Mint price is TBA. Supply is 666 and it is strictly max 1 per wallet — everyone gets exactly one phantom.',
+    q: 'How many identities remain?',
+    a: '666 corrupted identities remain. The Corruption Event is limited to one identity per eligible wallet.',
   },
 ]
 
@@ -128,8 +123,8 @@ export const QUESTS = [
   { id: 'like', label: 'Like the pinned @KRYPTROZ post', href: 'https://x.com/KRYPTROZ' },
   { id: 'rt', label: 'Retweet the pinned @KRYPTROZ post', href: 'https://x.com/KRYPTROZ' },
   { id: 'comment', label: 'Comment under the pinned post', href: 'https://x.com/KRYPTROZ' },
-  { id: 'post', label: 'Post about KRYPTROZ (tag us)', href: 'https://x.com/intent/post?text=666%20phantoms%20are%20leaking%20out%20of%20a%20dead%20server.%20%40KRYPTROZ%20%23KRYPTROZ' },
-  { id: 'discord', label: 'Join the community terminal (Discord)', href: 'https://discord.gg/' },
+  { id: 'post', label: 'Transmit the KRYPTROZ signal (tag us)', href: 'https://x.com/intent/post?text=Reality%20is%20breaking.%20666%20corrupted%20identities%20remain.%20%40KRYPTROZ%20%23KRYPTROZ' },
+  { id: 'discord', label: 'Join the Network (Discord)', href: 'https://discord.gg/' },
 ]
 
 export const SOCIALS = [

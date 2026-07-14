@@ -52,8 +52,8 @@ export default function Roadmap() {
     <section className="section" id="roadmap" ref={root}>
       <div className="section-head">
         <span className="section-index mono">[04]</span>
-        <h2 className="section-title glitch" data-text="ROADMAP">
-          ROADMAP
+        <h2 className="section-title glitch" data-text="CORRUPTION TIMELINE">
+          CORRUPTION TIMELINE
         </h2>
       </div>
 

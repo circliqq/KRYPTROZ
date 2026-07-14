@@ -9,6 +9,10 @@ const { rpc, insert, from } = vi.hoisted(() => ({
 }))
 
 vi.mock('../lib/supabase', () => ({ supabase: { rpc, from } }))
+vi.mock('../data/collection', async (importOriginal) => ({
+  ...(await importOriginal()),
+  WHITELIST_OPEN: true,
+}))
 
 import Whitelist from './Whitelist'
 

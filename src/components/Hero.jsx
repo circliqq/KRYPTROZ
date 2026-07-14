@@ -73,15 +73,15 @@ export default function Hero({ booted }) {
         <br />
         TRACKING: AUTO
       </div>
-      <div className="hero-hud bl mono">CHAIN: ETHEREUM // MINT: TBA</div>
-      <div className="hero-hud br mono">[ NO SIGNAL IS ALSO A SIGNAL ]</div>
+      <div className="hero-hud bl mono">CHAIN: ETHEREUM // CORRUPTION EVENT: TBA</div>
+      <div className="hero-hud br mono">[ REALITY NOT FOUND ]</div>
 
       <div className="hero-content">
-        <p className="hero-kicker">/// TRANSMISSION INTERCEPTED ///</p>
+        <p className="hero-kicker">/// REALITY NOT FOUND ///</p>
         <h1 className="hero-title glitch" data-text="KRYPTROZ">
           KRYPTROZ
         </h1>
-        <p className="hero-sub">666 corrupted phantoms — leaking out of a dead server on ethereum</p>
+        <p className="hero-sub">Reality is breaking. You&apos;re becoming part of it.</p>
       </div>
 
       <div className="hero-scroll mono">SCROLL ▼</div>

@@ -11,5 +11,5 @@ it('opens one FAQ at a time and exposes expanded state', async () => {
   await user.click(questions[1])
   expect(questions[0]).toHaveAttribute('aria-expanded', 'false')
   expect(questions[1]).toHaveAttribute('aria-expanded', 'true')
-  expect(screen.getByText(/Be active in the community terminal/)).toBeInTheDocument()
+  expect(screen.getByText(/Join the Network/)).toBeInTheDocument()
 })

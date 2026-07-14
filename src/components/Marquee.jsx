@@ -1,12 +1,12 @@
 const ITEMS = [
   '666 SUPPLY',
-  'MINT: TBA',
+  'CORRUPTION EVENT: TBA',
   'CHAIN: ETHEREUM',
   'PRICE: TBA',
   'MAX 1 / WALLET',
   'NO SIGNAL',
-  'PIXEL-FRIED PHANTOMS',
-  'DYOR OR DIE',
+  '666 CORRUPTED IDENTITIES',
+  'REALITY NOT FOUND',
 ]
 
 export default function Marquee() {

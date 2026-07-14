@@ -1,11 +1,10 @@
 import { motion } from 'framer-motion'
 
 const links = [
-  { label: 'STORY', href: '#story' },
-  { label: 'COLLECTION', href: '#collection' },
-  { label: 'RARITY', href: '#rarity' },
-  { label: 'ROADMAP', href: '#roadmap' },
-  { label: 'FAQ', href: '#faq' },
+  { label: 'ORIGIN', href: '#story' },
+  { label: 'IDENTITIES', href: '#collection' },
+  { label: 'CORRUPTION TIMELINE', href: '#roadmap' },
+  { label: 'SYSTEM LOGS', href: '#faq' },
 ]
 
 const go = (e, href) => {
@@ -44,11 +43,11 @@ export default function Nav({ booted }) {
       </nav>
       <a
         className="nav-cta mono glitch-hover"
-        data-text="JOIN WHITELIST"
+        data-text="PRIORITY ACCESS"
         href="#whitelist"
         onClick={(e) => go(e, '#whitelist')}
       >
-        JOIN WHITELIST
+        PRIORITY ACCESS
       </a>
     </motion.header>
   )

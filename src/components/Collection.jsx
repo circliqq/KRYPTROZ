@@ -63,8 +63,8 @@ export default function Collection() {
     <section className="section" id="collection" ref={root}>
       <div className="section-head">
         <span className="section-index mono">[02]</span>
-        <h2 className="section-title glitch" data-text="COLLECTION">
-          COLLECTION
+        <h2 className="section-title glitch" data-text="IDENTITIES">
+          IDENTITIES
         </h2>
       </div>
 
@@ -99,7 +99,7 @@ export default function Collection() {
                 <div className="skull-encrypted mono" aria-hidden="true">
                   <span className="enc-icon">◈</span>
                   <span className="enc-title">CLASSIFIED</span>
-                  <span className="enc-sub">DECRYPTS AT MINT</span>
+                  <span className="enc-sub">MANIFESTS AT CORRUPTION</span>
                 </div>
               )}
               <span className="skull-scan" />

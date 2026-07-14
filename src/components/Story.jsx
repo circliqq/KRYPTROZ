@@ -44,8 +44,8 @@ export default function Story() {
     <section className="section" id="story" ref={root}>
       <div className="section-head">
         <span className="section-index mono">[01]</span>
-        <h2 className="section-title glitch" data-text="STORY">
-          STORY
+        <h2 className="section-title glitch" data-text="ORIGIN">
+          ORIGIN
         </h2>
       </div>
 
@@ -54,7 +54,9 @@ export default function Story() {
           <article className="story-block" key={s.tag}>
             <div className="story-meta mono">
               <span className="story-tag">&gt;_{s.tag}</span>
-              <span className="story-num">LOG 0{i + 1}/03</span>
+              <span className="story-num">
+                LOG {String(i + 1).padStart(2, '0')}/{String(STORY.length).padStart(2, '0')}
+              </span>
             </div>
             <h3 className="story-title gtx">{s.title}</h3>
             <p className="story-body">{s.body}</p>
@@ -64,7 +66,7 @@ export default function Story() {
 
       <div className="terminal story-terminal">
         <div className="terminal-bar">
-          <span>KRYPTROZ.SYS — RECOVERED LOG</span>
+          <span>KRYPTROZ.SYS — ORIGIN UNKNOWN</span>
           <span className="dots">
             <span />
             <span />
@@ -75,15 +77,15 @@ export default function Story() {
           <div>
             <span className="prompt">&gt;</span> trace --origin
           </div>
-          <div className="dim">SOURCE: DEAD_SERVER_09 // PORT UNKNOWN</div>
+          <div className="dim">SOURCE: UNKNOWN // CREATOR: UNKNOWN</div>
           <div>
             <span className="prompt">&gt;</span> count --alive
           </div>
-          <div className="dim">666 ENTITIES DETECTED — SPREADING</div>
+          <div className="dim">666 CORRUPTED IDENTITIES REMAIN</div>
           <div>
             <span className="prompt">&gt;</span> containment --status
           </div>
-          <div className="dim">FAILED. THEY ARE ALREADY IN YOUR WALLET.</div>
+          <div className="dim">FAILED. REALITY IS CORRUPTING.</div>
           <div>
             <span className="prompt">&gt;</span> <span className="boot-cursor" />
           </div>

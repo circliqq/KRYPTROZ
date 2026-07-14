@@ -9,8 +9,8 @@ export default function Faq() {
     <section className="section" id="faq">
       <div className="section-head">
         <span className="section-index mono">[05]</span>
-        <h2 className="section-title glitch" data-text="FAQ">
-          FAQ
+        <h2 className="section-title glitch" data-text="SYSTEM LOGS">
+          SYSTEM LOGS
         </h2>
       </div>
 
